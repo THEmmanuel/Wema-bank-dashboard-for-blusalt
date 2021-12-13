@@ -5,6 +5,7 @@ body{
 
 .dashboard {
     display: flex;
+    background-color: #E5E5E5;
     flex-direction: row;
     width: 100vw;
     height: 100vh;
@@ -12,6 +13,8 @@ body{
 
 .side-bar {
     display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
     background-color: #990D81;
     width: 15vw;
     max-width: 300px;
@@ -20,10 +23,31 @@ body{
     align-items: center;
 }
 
+.sidebar-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .logo{
     margin: auto;
 }
 
 .dashboard-content {
     width: 75vw;
+}
+
+.stats-container{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 25px;
+}
+
+.stats-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.stats-data-container{
+    display: flex;
+    flex-direction: column;
 }
