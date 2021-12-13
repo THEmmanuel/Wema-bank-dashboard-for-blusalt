@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.side-bar {
+    background-color: #990D81;
+    width: 15vw;
+    max-width: 300px;
+    height: 100%;
+}
+
+.dashboard-content {
+    width: 75vw;
+}
