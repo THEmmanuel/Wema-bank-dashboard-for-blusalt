@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
@@ -23,12 +23,12 @@ body{
     align-items: center;
 }
 
-.sidebar-content-container{
+.sidebar-content-container {
     display: flex;
     flex-direction: column;
 }
 
-.logo{
+.logo {
     margin: auto;
 }
 
@@ -36,7 +36,7 @@ body{
     width: 75vw;
 }
 
-.stats-container{
+.stats-container {
     display: flex;
     flex-direction: row;
     grid-gap: 25px;
@@ -45,9 +45,45 @@ body{
 .stats-card {
     display: flex;
     flex-direction: row;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.06);
+    grid-gap: 10px;
+    margin: 25px;
+
 }
 
-.stats-data-container{
+.icon-container{
+    width: 60px;
+    height: 60px;
+    background-color: #2F49D1;
+    opacity: 10%;
+    border-radius: 50%;
+}
+
+.stat-number {
+    color: #171717;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.stat-description {
+    color: #AAAAAA
+}
+
+.stat-duration{
+    color: #BDBDBD
+}
+
+.stats-data-container {
     display: flex;
     flex-direction: column;
+}
+
+.stats-month-trend{
+    display: flex;
+    grid-gap: 5px;
+    flex-direction: row;
+    margin-top: 10px;
 }
