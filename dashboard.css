@@ -57,7 +57,7 @@ body {
 
 }
 
-.icon-container{
+.icon-container {
     width: 60px;
     height: 60px;
     background-color: #2F49D1;
@@ -75,7 +75,7 @@ body {
     color: #AAAAAA
 }
 
-.stat-duration{
+.stat-duration {
     color: #BDBDBD
 }
 
@@ -86,7 +86,7 @@ body {
     justify-content: center;
 }
 
-.stats-month-trend{
+.stats-month-trend {
     display: flex;
     grid-gap: 5px;
     flex-direction: row;
@@ -94,7 +94,7 @@ body {
 }
 
 
-.sidebar-nav-selector{
+.sidebar-nav-selector {
     display: flex;
     grid-gap: 10px;
     border-radius: 5px;
@@ -110,9 +110,10 @@ body {
 .data-charts {
     display: flex;
     grid-gap: 25px;
+    margin-left: 25px;
 }
 
-.requests-table{
+.requests-table {
     background-color: #FFFFFF;
     border-radius: 12px;
     margin-left: 20px;
@@ -124,28 +125,94 @@ body {
     font-weight: 600;
 }
 
-.table-heading{
+.table-heading {
     color: #8392AB;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
 }
 
-.name-container{
+.name-container {
     display: flex;
     flex-direction: row;
+    grid-gap: 10px;
 }
 
-.account-name-container{
+.account-name-container {
     display: flex;
     flex-direction: column;
 }
 
-.requests{
+.request {
     display: flex;
     flex-direction: row;
-    grid-gap: 15px;
+    grid-gap: 75px;
+    border-top: #F5F5F5 solid 1px;
+    border-bottom: #F5F5F5 solid 1px;
+    padding: 5px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
 }
 
-.table-heading-container{
+.table-heading-container {
     display: flex;
     flex-direction: row;
-    grid-gap: 15px;
+    grid-gap: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.request-user-name {
+    color: #141414;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.request-user-email {
+    color: #8392AB;
+    font-size: 14px;
+}
+
+.request-user-type {
+    color: #8392AB;
+    font-size: 14px;
+}
+
+.request-user-status {
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#pending {
+    color: #FFB648;
+    background-color: rgba(255, 172, 50, 0.1);
+    border-radius: 10px;
+}
+
+.request-date {
+    color: #990D81;
+}
+
+.arrow {
+    color: #990D81;
+    background-color: rgba(80, 159, 239, 0.5);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+
+.data-chart-1 {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.data-chart-2 {
+    background: #990D81;
+    border-radius: 12px;
 }
