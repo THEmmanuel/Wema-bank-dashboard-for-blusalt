@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blusalt Frontend challenge</title>
-    <script src="https://d3js.org/d3.v6.js"></script>
-    <script src="/dashboard.js"></script>
 </head>
 
 <body>
@@ -16,31 +14,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="./dashboard.js"></script>
+
     <div class="dashboard">
         <section class="side-bar">
             <img class="logo" src="./Assets/logo.png" alt="logo">
 
             <div class="sidebar-content-container">
-                <div class="sidebar-nav-selector">
+                <div class="sidebar-nav-selected">
                     <img src="" alt="icon">
                     <span>Dashboard</span>
                 </div>
 
-                <span>Requests</span>
-                <span>KYCs</span>
-                <span>Reports</span>
-                <span>Audit trail</span>
-                <span>Users</span>
-                <span>Settings</span>
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">Requests</span>
+                </div>
+
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">KYCs</span>
+                </div>
+
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">Reports</span>
+                </div>
+
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">Audit Trail</span>
+                </div>
+
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">Users</span>
+                </div>
+
+                <div class="sidebar-nav-selector">
+                    <img src="" alt="icon">
+                    <span class="sidebar-nav-text">Settings</span>
+                </div>
+            </div>
+
+            <div class = "user-info">
+                <img src="" alt="icon">
+                <div class="user-info-name">
+                    <span>Nafisat Sh</span>
+                    <span>Support manager</span>
+                </div>
             </div>
         </section>
 
         <section class="dashboard-content">
-            <div>
+            <nav class="nav-bar">
                 <h2>
                     Dashboard
                 </h2>
-            </div>
+
+                <div>
+                    <img src="" alt="search">
+                    <span>enter keywords</span>
+                </div>
+
+                <div>
+                    <span>EN</span>
+                    <span>arrow</span>
+                </div>
+
+                <div>
+                    dark mode
+                </div>
+
+                <div>
+                    notif
+                </div>
+
+                <img src="" alt="pic">
+            </nav>
 
             <div class="stats-container">
                 <div class="stats-card">
@@ -78,10 +131,16 @@
                         <span>Agents</span>
                         <span>475 373</span>
                     </div>
+
+                    <div>
+                        chart 1 will be here
+                    </div>
                 </div>
 
                 <div class="data-chart-2">
-                    chart 2
+                    <div id="data-chart-container">
+                        chart 2 will be here
+                    </div>
                     New Users
                 </div>
             </div>
