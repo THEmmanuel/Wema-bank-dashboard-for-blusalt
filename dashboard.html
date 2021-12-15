@@ -16,7 +16,6 @@
         rel="stylesheet">
 
     <script src="https://d3js.org/d3.v6.js"></script>
-    <script src="./dashboard.js"></script>
 
     <div class="dashboard">
         <section class="side-bar">
@@ -63,7 +62,9 @@
 
             <div class="user-info">
                 <div class="user-info-picture">
-                    <img class="image" src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg" alt="icon">
+                    <img class="image"
+                        src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg"
+                        alt="icon">
                 </div>
                 <div>
                     <div class="user-info-container">
@@ -95,7 +96,8 @@
                 <img src="./Assets/sun.png" alt="dark mode" class="icon">
 
                 <img src="./Assets/notification.png" alt="notif" class="icon">
-                <img src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg" alt="pic" class="image">
+                <img src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg"
+                    alt="pic" class="image">
             </nav>
 
             <div class="stats-container">
@@ -170,20 +172,19 @@
 
             <div class="data-charts">
                 <div class="data-chart-1">
-                    chart1
-                    <h2>User Inflow Statistics</h2>
+                    <h2 class="chart-title">User Inflow Statistics</h2>
                     <span>Nov - July</span>
 
-                    <div>
-                        <div>dot</div>
+                    <div class="">
+                        <div class="purple-dot"></div>
                         <span>Agents</span>
                         <span>475 373</span>
                     </div>
 
                     <div>
-                        <div>dot</div>
+                        <div class="green-dot"></div>
                         <span>Agents</span>
-                        <span>475 373</span>
+                        <span>782 396</span>
                     </div>
 
                     <div>
@@ -193,9 +194,11 @@
 
                 <div class="data-chart-2">
                     <div id="data-chart-container">
-                        <!-- chart 2 will be here -->
                     </div>
-                    New Users
+                    <div class="chart-text-container">
+                        <span class="chart-text"> New Users </span>
+                        <span class="chart-text">(+23% than last week)</span>
+                    </div>
                 </div>
             </div>
 
@@ -210,7 +213,9 @@
 
                 <div class="request">
                     <div class="name-container">
-                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-241463-1024x1005.jpg" alt="profile">
+                        <img class="profile-image"
+                            src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-241463-1024x1005.jpg"
+                            alt="profile">
                         <div class="account-name-container">
                             <span class="request-user-name">Michael Olu</span>
                             <span class="request-user-email">michael@gmail.com</span>
@@ -229,7 +234,9 @@
 
                 <div class="request">
                     <div class="name-container">
-                        <img class="profile-image" src="https://userstock.io/data/wp-content/uploads/2020/06/aiony-haust-3TLl_97HNJo-300x300.jpg" alt="profile">
+                        <img class="profile-image"
+                            src="https://userstock.io/data/wp-content/uploads/2020/06/aiony-haust-3TLl_97HNJo-300x300.jpg"
+                            alt="profile">
                         <div class="account-name-container">
                             <span class="request-user-name">Chioma James</span>
                             <span class="request-user-email">alexa@mail.com</span>
@@ -248,7 +255,9 @@
 
                 <div class="request">
                     <div class="name-container">
-                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/09/bewakoof-com-official-208957-980x1024.jpg" alt="profile">
+                        <img class="profile-image"
+                            src="https://userstock.io/data/wp-content/uploads/2017/09/bewakoof-com-official-208957-980x1024.jpg"
+                            alt="profile">
                         <div class="account-name-container">
                             <span class="request-user-name">Boluwatife Ade</span>
                             <span class="request-user-email">laure@mail.com</span>
@@ -267,7 +276,9 @@
 
                 <div class="request">
                     <div class="name-container">
-                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/07/pexels-photo-300122-1024x790.jpeg" alt="profile">
+                        <img class="profile-image"
+                            src="https://userstock.io/data/wp-content/uploads/2017/07/pexels-photo-300122-1024x790.jpeg"
+                            alt="profile">
                         <div class="account-name-container">
                             <span class="request-user-name">Miriam Eric</span>
                             <span class="request-user-email">miriam@mail.com</span>
@@ -286,6 +297,8 @@
             </div>
         </section>
     </div>
+
+    <script src="./dashboard.js"></script>
 </body>
 
 </html>
