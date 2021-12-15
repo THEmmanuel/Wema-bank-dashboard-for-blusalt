@@ -22,83 +22,86 @@
         <section class="side-bar">
             <img class="logo" src="./Assets/logo.png" alt="logo">
 
+            <div class="line"></div>
+
             <div class="sidebar-content-container">
                 <div class="sidebar-nav-selected">
-                    <img src="" alt="icon">
+                    <img src="./Assets/dashboard.png" alt="icon">
                     <span>Dashboard</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/requests.png" alt="icon">
                     <span class="sidebar-nav-text">Requests</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/kyc.png"" alt=" icon">
                     <span class="sidebar-nav-text">KYCs</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/reports.png"" alt=" icon">
                     <span class="sidebar-nav-text">Reports</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/audit.png"" alt=" icon">
                     <span class="sidebar-nav-text">Audit Trail</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/users.png" alt="icon">
                     <span class="sidebar-nav-text">Users</span>
                 </div>
 
                 <div class="sidebar-nav-selector">
-                    <img src="" alt="icon">
+                    <img src="./Assets/settings.png" alt="icon">
                     <span class="sidebar-nav-text">Settings</span>
                 </div>
             </div>
 
-            <div class = "user-info">
-                <img src="" alt="icon" class = "user-info-picture">
-                <div class="user-info-container">
-                    <span class="user-info-name">Nafisat Sh</span>
-                    <span class="user-info-role">Support manager</span>
+            <div class="user-info">
+                <div class="user-info-picture">
+                    <img class="image" src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg" alt="icon">
+                </div>
+                <div>
+                    <div class="user-info-container">
+                        <span class="user-info-name">Nafisat Sh</span>
+                        <span class="user-info-role">Support manager</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="dashboard-content">
             <nav class="nav-bar">
-                <h2>
+                <h2 class="nav-title">
                     Dashboard
                 </h2>
 
-                <div>
-                    <img src="" alt="search">
-                    <span>enter keywords</span>
+                <div class="search-container">
+                    <img src="./Assets/search.png" alt="search">
+                    <div>
+                        <input type="text" name="" id="search-input" placeholder="Enter keywords..." />
+                    </div>
                 </div>
 
                 <div>
                     <span>EN</span>
-                    <span>arrow</span>
+                    <img src="./Assets/arrow.png" alt="arrow">
                 </div>
 
-                <div>
-                    dark mode
-                </div>
+                <img src="./Assets/sun.png" alt="dark mode" class="icon">
 
-                <div>
-                    notif
-                </div>
-
-                <img src="" alt="pic">
+                <img src="./Assets/notification.png" alt="notif" class="icon">
+                <img src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-261533-1024x987.jpg" alt="pic" class="image">
             </nav>
 
             <div class="stats-container">
                 <div class="stats-card">
                     <div class="icon-container">
-                        icon
+                        <img src="./Assets/pending.png" alt="">
                     </div>
 
                     <div class="stats-data-container">
@@ -106,8 +109,59 @@
                         <span class="stat-description">Pending Requests</span>
 
                         <div class="stats-month-trend">
-                            <span class="stat-trend">ar</span>
+                            <img src="./Assets/trending-up.png" alt="trending-up">
                             <span class="stat-percentage"> 4.07%</span>
+                            <span class="stat-month">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="icon-container">
+                        <img src="./Assets/approved.png" alt="">
+                    </div>
+
+                    <div class="stats-data-container">
+                        <span class="stat-number"> 478 520 </span>
+                        <span class="stat-description">Pending Requests</span>
+
+                        <div class="stats-month-trend">
+                            <img src="./Assets/trending-up.png" alt="trending-up">
+                            <span class="stat-percentage"> 0.24%</span>
+                            <span class="stat-month">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="icon-container">
+                        <img src="./Assets/total-agents.png" alt="">
+                    </div>
+
+                    <div class="stats-data-container">
+                        <span class="stat-number"> 154 872 </span>
+                        <span class="stat-description">Total Agents</span>
+
+                        <div class="stats-month-trend">
+                            <img src="./Assets/trending-down.png" alt="trending-up">
+                            <span class="stat-percentage red"> 1.64%</span>
+                            <span class="stat-month">Last Month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="icon-container">
+                        <img src="./Assets/total.png" alt="">
+                    </div>
+
+                    <div class="stats-data-container">
+                        <span class="stat-number"> 167 </span>
+                        <span class="stat-description">Total Users</span>
+
+                        <div class="stats-month-trend">
+                            <img src="./Assets/trending-up-2.png" alt="trending-up">
+                            <span class="stat-percentage yellow"> 0.00%</span>
                             <span class="stat-month">Last Month</span>
                         </div>
                     </div>
@@ -156,7 +210,7 @@
 
                 <div class="request">
                     <div class="name-container">
-                        <img src="" alt="profile">
+                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/09/yingchou-han-241463-1024x1005.jpg" alt="profile">
                         <div class="account-name-container">
                             <span class="request-user-name">Michael Olu</span>
                             <span class="request-user-email">michael@gmail.com</span>
@@ -169,7 +223,65 @@
 
                     <span class="request-date">23/04/18</span>
 
-                    <span class="arrow"> > </span>
+                    <!-- <img class="arrow"> > </img> -->
+                    <img class="arrow" src="./Assets/arrow-down.png" alt="" srcset="">
+                </div>
+
+                <div class="request">
+                    <div class="name-container">
+                        <img class="profile-image" src="https://userstock.io/data/wp-content/uploads/2020/06/aiony-haust-3TLl_97HNJo-300x300.jpg" alt="profile">
+                        <div class="account-name-container">
+                            <span class="request-user-name">Chioma James</span>
+                            <span class="request-user-email">alexa@mail.com</span>
+                        </div>
+                    </div>
+
+                    <span class="request-user-type">Account Deactivation</span>
+
+                    <span class="request-user-status" id="pending">Pending</span>
+
+                    <span class="request-date">23/04/18</span>
+
+                    <!-- <img class="arrow"> > </img> -->
+                    <img class="arrow" src="./Assets/arrow-down.png" alt="" srcset="">
+                </div>
+
+                <div class="request">
+                    <div class="name-container">
+                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/09/bewakoof-com-official-208957-980x1024.jpg" alt="profile">
+                        <div class="account-name-container">
+                            <span class="request-user-name">Boluwatife Ade</span>
+                            <span class="request-user-email">laure@mail.com</span>
+                        </div>
+                    </div>
+
+                    <span class="request-user-type">New User</span>
+
+                    <span class="request-user-status" id="pending">Pending</span>
+
+                    <span class="request-date">23/04/18</span>
+
+                    <!-- <img class="arrow"> > </img> -->
+                    <img class="arrow" src="./Assets/arrow-down.png" alt="" srcset="">
+                </div>
+
+                <div class="request">
+                    <div class="name-container">
+                        <img class = "profile-image" src="https://userstock.io/data/wp-content/uploads/2017/07/pexels-photo-300122-1024x790.jpeg" alt="profile">
+                        <div class="account-name-container">
+                            <span class="request-user-name">Miriam Eric</span>
+                            <span class="request-user-email">miriam@mail.com</span>
+                        </div>
+                    </div>
+
+                    <span class="request-user-type">Email Auth</span>
+
+                    <span class="request-user-status" id="pending">Pending</span>
+
+                    <span class="request-date">23/04/18</span>
+
+                    <!-- <img class="arrow"> > </img> -->
+                    <img class="arrow" src="./Assets/arrow-down.png" alt="" srcset="">
                 </div>
             </div>
         </section>
