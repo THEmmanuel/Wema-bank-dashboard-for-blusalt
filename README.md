@@ -1,4 +1,3 @@
-# blusalt-frontend-challenge
-Dashboard
+# Wema bank customer care dashboard.
 
-https://kind-haibt-3f9934.netlify.app/dashboard
+Quick Demo: https://kind-haibt-3f9934.netlify.app/dashboard
